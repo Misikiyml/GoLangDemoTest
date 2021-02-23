@@ -21,7 +21,7 @@ type Book struct {
 
 func main() {
 	//获取xml文件位置
-	content, err := ioutil.ReadFile("D:\\GoLang\\src\\github.com\\Sunxk\\bookstore.xml")
+	content, err := ioutil.ReadFile("./bookstore.xml")
 	if err != nil {
 		fmt.Println("读文件位置错误信息：", err)
 	}
